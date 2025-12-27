@@ -1,3 +1,3 @@
 const CONFIG = {
-  BASE_URL: "https://superstore-backend-poac.onrender.com"
+  BASE_URL: "https://superstore-dashboard-backend.onrender.com"
 };
