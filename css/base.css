@@ -1,0 +1,24 @@
+/* ===== RESET ===== */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* ===== BASE TYPOGRAPHY ===== */
+body {
+  font-family: "Segoe UI", Roboto, Arial, sans-serif;
+  font-size: 14px;
+  line-height: 1.5;
+  background-color: var(--bg-main);
+  color: var(--text-primary);
+}
+
+/* Scrollbar (Power BI–like) */
+::-webkit-scrollbar {
+  width: 6px;
+}
+::-webkit-scrollbar-thumb {
+  background: var(--accent-alt);
+  border-radius: 4px;
+}

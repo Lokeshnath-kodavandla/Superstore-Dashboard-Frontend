@@ -1,0 +1,21 @@
+/* Hover highlight */
+.card:hover {
+  outline: 2px solid var(--accent-alt);
+}
+
+/* Disabled state (when filtered out) */
+.card.disabled {
+  opacity: 0.4;
+  pointer-events: none;
+}
+
+/* Active filter buttons */
+.sidebar button.active {
+  background: var(--accent-info);
+}
+
+/* Smooth transitions */
+.card,
+button {
+  transition: all 0.25s ease;
+}

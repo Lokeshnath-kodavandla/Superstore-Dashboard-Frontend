@@ -1,0 +1,41 @@
+/* Cards */
+.card {
+  background: var(--bg-card);
+  border-radius: var(--radius-md);
+  padding: 16px;
+  box-shadow: var(--shadow-card);
+  position: relative;
+}
+
+/* Buttons */
+button {
+  width: 100%;
+  padding: 8px 10px;
+  border-radius: var(--radius-sm);
+  border: none;
+  background: var(--accent-main);
+  color: white;
+  font-size: 13px;
+  cursor: pointer;
+  transition: background 0.2s ease;
+}
+
+button:hover {
+  background: var(--accent-alt);
+}
+
+/* Inputs */
+input {
+  width: 100%;
+  padding: 7px;
+  margin-top: 8px;
+  border-radius: var(--radius-sm);
+  border: 1px solid var(--border-soft);
+  background: transparent;
+  color: white;
+}
+
+/* Filter groups */
+.filter-group button {
+  margin-bottom: 6px;
+}

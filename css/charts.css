@@ -1,0 +1,14 @@
+.card canvas {
+  width: 100% !important;
+  height: 320px !important;
+}
+
+/* Chart title (optional overlay) */
+.card::before {
+  content: attr(data-title);
+  position: absolute;
+  top: 10px;
+  left: 14px;
+  font-size: 13px;
+  color: var(--text-secondary);
+}
